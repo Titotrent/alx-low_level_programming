@@ -1,24 +1,25 @@
 #include <stdio.h>
 /*
 *
-* main -entry point
+* main - Entry point
 *
-* Return: Always 0 (Success/correct)
+* Return: Always 0
+* 
 */
+
 int main(void)
+
 {
 
-	char alphabet;
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+char letter;
+
+for (letter = 'a'; letter <= 'z'; letter++)
+
 {
 
-if (alphabet == 'q')
-continue;
+if (letter != 'e' && letter != 'q')
 
-else if (alphabet == 'e')
-continue;
-
-putchar(alphabet);
+putchar(letter);
 
 }
 

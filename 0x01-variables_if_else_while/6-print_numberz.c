@@ -10,12 +10,13 @@ int main(void)
 
 {
 
-	int i;
+int num;
 
-for (i = 0; i <=9;i++)
+for (num = 0; num < 10; num++)
+putchar((num % 10) + '0');	
 {
 
-	putchar (i);
+putchar (num);
 
 }
 putchar ('\n');
